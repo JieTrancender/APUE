@@ -88,7 +88,7 @@ pid_t lock_test(int, int, off_t, int, off_t);
 
 #define is_writelock(fd, offset, whence, len) lock_test(fd, F_WRLCK, offset, whence, len)
 
-void err_dump(const char*, ...);
+/*void err_dump(const char*, ...);
 void err_msg(const char*, ...);
 void err_quit(const char*, ...);
 void err_ret(const char*, ...);
@@ -104,6 +104,6 @@ void TELL_WAIT(void);
 void TELL_PARENT(pid_t);
 void TELL_CHILD(pid_t);
 void WAIT_PARENT(void);
-void WAIT_CHILD(void);
+void WAIT_CHILD(void);*/
 
 #endif

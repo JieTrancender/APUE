@@ -92,7 +92,7 @@ static void err_doit(int errnoflag, const char *fmt, va_list ap)
 	return;
 }
 
-extern int debug;	//caller must define and set this: nonzero if interactive, zero if daemon
+/*extern int debug;	//caller must define and set this: nonzero if interactive, zero if daemon
 
 //Initialize syslog(), if running as daemon
 void log_open(const char *ident, int option, int facility)
@@ -168,4 +168,4 @@ static void log_doit(int errnoflag, int priority, const char *fmt, va_list ap)
 		syslog(priority, buf);
 	}
 	return;
-}
+}*/
