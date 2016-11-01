@@ -9,7 +9,7 @@
 #include <errno.h>
 #include <stdarg.h>
 #include <syslog.h>
-#include "ourhdr.h"
+#include "apue.h"
 
 static void err_doit(int, const char *, va_list);
 static void log_doit(int, int, const char *, va_list ap);
